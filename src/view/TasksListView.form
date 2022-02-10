@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.TasksListView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="504" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-11781196"/>
+      <foreground color="-9873973"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="4c21d" binding="toDoScrollPane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9609781"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b0d31" class="javax.swing.JTable" binding="toDoTable">
+            <constraints/>
+            <properties>
+              <background color="-9609781"/>
+              <enabled value="true"/>
+              <fillsViewportHeight value="true"/>
+              <focusable value="false"/>
+              <foreground color="-1"/>
+              <gridColor color="-6516761"/>
+              <selectionBackground color="-9292801"/>
+              <selectionForeground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="3881f" binding="doingScrollPane">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9609781"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a08f2" class="javax.swing.JTable" binding="doingTable">
+            <constraints/>
+            <properties>
+              <background color="-9609781"/>
+              <fillsViewportHeight value="true"/>
+              <focusable value="false"/>
+              <foreground color="-1"/>
+              <gridColor color="-6516761"/>
+              <selectionBackground color="-9292801"/>
+              <selectionForeground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="c8c01" binding="doneScrollPane">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9609781"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="997b9" class="javax.swing.JTable" binding="doneTable">
+            <constraints/>
+            <properties>
+              <background color="-9609781"/>
+              <fillsViewportHeight value="true"/>
+              <focusable value="false"/>
+              <foreground color="-1"/>
+              <gridColor color="-6516761"/>
+              <selectionBackground color="-9292801"/>
+              <selectionForeground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="b8379" class="javax.swing.JButton" binding="addTaskButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9873973"/>
+          <foreground color="-1"/>
+          <text resource-bundle="resources/Strings" key="add.task"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="ToDo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ToDo_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ToDo.jar">
+        <element id="module-output" name="ToDo" />
+      </element>
+      <element id="file-copy" path="$USER_HOME$/Downloads/mysql-connector-java-8.0.25.jar" />
+    </root>
+  </artifact>
+</component>
